@@ -1,8 +1,12 @@
 package com.chat.pushnotification.model;
 
-import lombok.Value;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Value
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class DeliverMessageRequest {
     private String from;
     private String to;
